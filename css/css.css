@@ -85,6 +85,13 @@ body{
 .btn-lg:hover{
     background-color: rgb(46, 163, 163) !important;
 }
+
+.btn-primary{
+    border: none !important;
+}
+.btn-primary:hover{
+    background-color: rgb(46, 163, 163) !important;
+}
 .container-wolf{
     display: flex;
     justify-items: center;
@@ -124,9 +131,6 @@ body{
 .card-img-top {
     width: 300px;
     height: 200px;
-}
-.nav{
-    background-color: green !important;
 }
 
 @media screen and (max-width:850px){
