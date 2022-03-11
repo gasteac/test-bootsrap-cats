@@ -1,0 +1,142 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.title{
+    display: flex;
+    letter-spacing: 10px;
+    color: white;
+    margin: 0px;
+}
+.col {
+    display: flex;
+    align-items: center !important;
+    justify-items: center !important;
+    align-content: center !important;
+    justify-content: center !important;
+    align-self: center !important;
+    justify-self: center !important;
+    padding: 10px;
+}
+.row {
+    display: flex;
+    align-items: center !important;
+    justify-items: center !important;
+    align-content: center !important;
+    justify-content: center !important;
+    align-self: center !important;
+    justify-self: center !important;
+    padding: 10px;
+}
+.container{
+    padding: 10px;
+}
+.header{
+    padding: 10px;
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-resp{
+    display: none;
+    padding: 10px;
+    background-color: darkslategray;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    transition:all 0.1s;
+}
+.card-body{
+    margin: 0px !important;
+}
+.btn-primary{
+    background-color: darkslategray !important;
+    border: none !important;
+}
+.card:hover{
+    transform: scale(1.02);
+}
+.card:active{
+    transform: scale(1.04);
+}
+.footer-wolf{
+    bottom: 0;
+    background: darkslategray;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    opacity: 55%;
+}
+.container-michiSelected{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-lg{
+    margin-top: 50px;
+    background-color: darkslategray !important;
+    border: none !important;
+}
+.btn-lg:hover{
+    background-color: rgb(46, 163, 163) !important;
+}
+.container-wolf{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}
+.footer-wolf{
+    margin-top: auto;
+}
+.container-michiSelected > img{
+    margin-top: 30px;
+    width: 400px;
+}
+.container-michiSelected > h1{
+    margin-top: 50px;
+}
+.footer-wolf > h5{
+    color: white;
+    letter-spacing: 10px;
+    text-align: center;
+    padding: 5px;
+    margin-top:auto; 
+}
+.wolf{
+    display: flex;
+    padding: 10px;
+    margin: 0px 20px;
+    justify-content: center;
+    background: linear-gradient(to top, transparent, darkslategray);
+    opacity: 80%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.card-img-top {
+    width: 300px;
+    height: 200px;
+}
+.nav{
+    background-color: green !important;
+}
+
+@media screen and (max-width:850px){
+    .header-resp{
+        display:flex;
+    }
+    .header{
+        display:none;
+    }
+    .navbar{
+        display: none !important;
+    }
+}
